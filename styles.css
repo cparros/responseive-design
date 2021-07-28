@@ -8,6 +8,7 @@ h1 {
 p,
 a {
   font-family: 'Avenir';
+  color: #4B5D68;
 }
 
 .page__inner {
@@ -37,6 +38,7 @@ nav {
 .nav-item-theme {
   font-family: 'Avenir';
   font-size: 16px;
+  color: #212353;
 }
 
 .nav__item-selected {
@@ -68,43 +70,51 @@ button {
 .button-theme-demo {
   background: #ffffff;
   display: flex; justify-content: center; align-items: center;
+  color: #212353;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 .button-theme-pink {
   background-color: #f063b8;
   color: #ffffff;
   margin-right: 10%;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 .page__inner__first__container__text {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
 .page__inner__first__container__title {
-  width: 75%;
+  width: 100%;
 }
 
 .page__inner__first__container__description {
-  width: 40%;
+  width: 80%;
   font-size: 18px;
 }
 
 .page__inner__first__container__image {
-  position: absolute;
-  width: 1000px;
-  height: 500px;
-  left: 1003px;
-  top: 333px;
+  height: 468px;
+  width: 885px;
+  padding-top: 20%;
   z-index: -1;
+}
+
+.page__inner__first__container__content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
 }
 
 .page__inner__second__container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
 }
@@ -138,6 +148,7 @@ button {
   text-align: center;
   font-family: 'Helvetica';
   font-size: 40px;
+  color: #212353;
 }
 
 .page__inner__third__container__description {
@@ -179,6 +190,11 @@ button {
   font-family: Helvetica;
   font-size: 24px;
   font-weight: 400;
+  color: #212353;
+}
+
+.title-one-theme {
+  background-image: url('/assets/images/firstBean.svg');
 }
 
 .page__inner__fourth__container__titles__learn {
